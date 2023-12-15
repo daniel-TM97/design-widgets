@@ -15,20 +15,21 @@
     	<option value="-">- Chọn Quận/Huyện -</option>
     </select>
 </div>
-
-<table>
-    <tr>
-        <td>Phí ship</td>
-        <td>Thời gian*</td>
-    </tr>
-    <tr>
-        <td id="shipping-fee"></td>
-        <td id="shipping-time"></td>
-    </tr>
-    <tr>
-        <td  id="shipping-note" colspan="2"></td>
-    </tr>
-</table>
+<div class="widget-table">
+    <table>
+        <tr>
+            <td>Phí ship</td>
+            <td>Thời gian*</td>
+        </tr>
+        <tr>
+            <td id="shipping-fee"></td>
+            <td id="shipping-time"></td>
+        </tr>
+        <tr>
+            <td  id="shipping-note" colspan="2"></td>
+        </tr>
+    </table>
+</div>
 
 <script>
 var tinhthanh = ["Hồ Chí Minh","Hà Nội","An Giang","Bắc Giang","Bắc Kạn","Bạc Liêu","Bắc Ninh","Bà Rịa - Vũng Tàu","Bến Tre","Bình Định",
